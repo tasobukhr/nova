@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Loose Leashes BarkAcademy — Modern, positive reinforcement dog training & behavior guidance from the comfort of home. Certified trainers, daily challenges, and stress-free walks.">
+  <meta name="theme-color" content="#1E3F32">
+  <title>Loose Leashes BarkAcademy | Positive Dog Training & Behavior Guidance at Home</title>
+
+  <!-- Google Fonts Preconnect & Font Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Vanilla JavaScript (deferred for performance & DOM readiness) -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       HERO SECTION (<header> / FIRST SECTION)
+       Contains Navigation, Hero Headline, Subheadline, Primary CTAs & Visual Mockup
+       ======================================================================== -->
+  <header class="hero-header">
+    <!-- Main Navigation Bar -->
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <div class="container nav-container">
+        <!-- Brand Logo -->
+        <a href="#" class="brand-logo" aria-label="Loose Leashes BarkAcademy Home">
+          <div class="logo-icon-wrapper" aria-hidden="true">
+            <!-- Dog Paw SVG Icon -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 10.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm5.5 3c1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5-2.5 1.12-2.5 2.5 1.12 2.5 2.5 2.5zM6.5 13.5c1.38 0 2.5-1.12 2.5-2.5S7.88 8.5 6.5 8.5 4 9.62 4 11s1.12 2.5 2.5 2.5zm5.5 1.5c-2.4 0-4.5 1.4-5.4 3.4-.4.9.1 1.9 1 2.2.3.1.6.1.9.1 1.1 0 2.3-.6 3.5-.6s2.4.6 3.5.6c.3 0 .6 0 .9-.1.9-.3 1.4-1.3 1-2.2-.9-2-3-3.4-5.4-3.4z"/>
+            </svg>
+          </div>
+          <span>Loose Leashes <span class="logo-text-accent">BarkAcademy</span></span>
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#features" class="nav-link">Academy Features</a></li>
+          <li><a href="#contact" class="nav-link">Contact & Support</a></li>
+          <li class="mobile-nav-cta">
+            <a href="#features" class="btn btn-primary btn-sm btn-full-width">Start Training Free</a>
+          </li>
+        </ul>
+
+        <!-- Action Button (Desktop) -->
+        <div class="nav-actions">
+          <a href="#features" class="btn btn-primary btn-sm">Start Training Free</a>
+        </div>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Content Container -->
+    <div class="container">
+      <div class="hero-content">
+        <!-- Hero Text Block -->
+        <div class="hero-text-block">
+          <div class="hero-pill">
+            <span class="paw-icon" aria-hidden="true">🐾</span>
+            <span>100% Science-Backed, Force-Free Dog Training</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Build a Stronger Bond & Walk in Harmony <span class="highlight">from Home</span>.
+          </h1>
+
+          <p class="hero-subheadline">
+            Say goodbye to frantic pulling, stressful walks, and confusing advice. Loose Leashes BarkAcademy empowers pet parents with humane, step-by-step guidance designed by certified behavior experts to unlock your dog's joyful potential.
+          </p>
+
+          <!-- Primary & Secondary CTA Buttons -->
+          <div class="hero-cta-group">
+            <a href="#features" class="btn btn-primary">
+              <span>Start Training Free</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-secondary">
+              <span>Explore Our Story</span>
+            </a>
+          </div>
+
+          <!-- Social Proof / Trust Metrics -->
+          <div class="hero-social-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&h=100&q=80" alt="Pet parent Sarah" width="38" height="38">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80" alt="Pet parent David" width="38" height="38">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80" alt="Pet parent Maya" width="38" height="38">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80" alt="Pet parent Marcus" width="38" height="38">
+            </div>
+            <div class="proof-text">
+              <div class="proof-stars" aria-label="5 out of 5 stars rating">
+                ★★★★★
+              </div>
+              <p>Trusted by <strong>15,000+ Happy Pups</strong> & Devoted Owners</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Mockup Container -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-image-card">
+            <img src="assets/hero-dog.jpg" alt="Smiling pet owner using gentle positive reinforcement treats with a happy Australian Shepherd dog in a sunlit living room" width="600" height="480">
+          </div>
+
+          <!-- Floating Badges for Visual Depth -->
+          <div class="floating-chip chip-top-right">
+            <div class="chip-icon accent" aria-hidden="true">🎯</div>
+            <div class="chip-content">
+              <strong>14-Day Walk Reset</strong>
+              <span>Zero pulling guaranteed</span>
+            </div>
+          </div>
+
+          <div class="floating-chip chip-bottom-left">
+            <div class="chip-icon primary" aria-hidden="true">✓</div>
+            <div class="chip-content">
+              <strong>Certified CPDT-KA</strong>
+              <span>Positive behaviorists only</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- ======================================================================
+         ABOUT SECTION (<section id="about">)
+         Contains Story, Mission, Target Audience, and Core Values
+         ====================================================================== -->
+    <section id="about" class="about-section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Column: Visual Media -->
+          <div class="about-visual-column">
+            <div class="about-image-card">
+              <img src="assets/about-dog.jpg" alt="Professional female dog trainer joyfully high-fiving a friendly golden retriever in a natural sunny park" loading="lazy" width="550" height="440">
+            </div>
+            <!-- Floating Achievement Pill -->
+            <div class="about-badge-card">
+              <div class="stat-number">98.4%</div>
+              <div class="stat-label">Of pet parents report noticeable walk calm in under 10 days</div>
+            </div>
+          </div>
+
+          <!-- Right Column: Story & Mission Content -->
+          <div class="about-story-column">
+            <span class="section-badge">Our Mission & Story</span>
+            <h2 id="about-heading" class="section-title">
+              Born from a Passion for Happier, Confident Dogs
+            </h2>
+
+            <p class="about-lead-text">
+              Loose Leashes BarkAcademy was founded on a simple truth: dog training shouldn't feel like a battle of wills, expensive private bootcamps, or outdated dominance tactics.
+            </p>
+
+            <p class="about-body-text">
+              We built this digital academy for everyday pet parents who want compassionate, science-backed guidance that fits naturally into their busy routines. Whether you have an eager rescue puppy learning leash manners or an anxious dog reactive to neighborhood triggers, our gentle, positive-reinforcement methodologies build deep mutual trust and lifelong manners right in your living room.
+            </p>
+
+            <!-- 4 Pillar Points -->
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <strong>100% Fear-Free</strong>
+                  <p>No choke chains or intimidation. Pure trust and joyful praise.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <strong>10 Mins a Day</strong>
+                  <p>Bite-sized micro-lessons designed for real human schedules.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <strong>Science-Backed</strong>
+                  <p>Rooted in modern canine psychology and operant conditioning.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
+                <div class="pillar-content">
+                  <strong>Trainer Community</strong>
+                  <p>Direct weekly Q&A access to certified dog behavior experts.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Context CTA Button -->
+            <a href="#contact" class="btn btn-secondary btn-sm">Talk With a Trainer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         FEATURES SECTION (<section id="features">)
+         Arranged in a responsive grid. Exactly 3 distinct feature cards:
+         1. Step-by-Step Guides
+         2. Daily Challenges
+         3. Progress Tracking
+         ====================================================================== -->
+    <section id="features" class="features-section" aria-labelledby="features-heading">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-badge">Empowering Features</span>
+          <h2 id="features-heading" class="section-title">Everything You Need for Lifelong Good Habits</h2>
+          <p class="section-subtitle">
+            Our progressive curriculum breaks down complex canine behavior into fun, achievable daily victories that turn chaos into relaxed companionship.
+          </p>
+        </div>
+
+        <!-- Exactly 3 Feature Cards in Responsive Grid -->
+        <div class="features-grid">
+          
+          <!-- Feature Card 1: Step-by-Step Guides -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Step-by-Step Guides</h3>
+            <p class="feature-description">
+              Professional video tutorials and expert-backed training instructions. Learn proper leash handling, marker words, desensitization, and recall drills through crystal-clear 4K video modules with downloadable PDF cheat sheets.
+            </p>
+            <div class="feature-tag-list">
+              <span class="feature-pill">🎥 HD Video Lessons</span>
+              <span class="feature-pill">📄 Quick Cheat Sheets</span>
+              <span class="feature-pill">🐶 All Breeds & Ages</span>
+            </div>
+          </article>
+
+          <!-- Feature Card 2: Daily Challenges -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                <path d="M4 22h16"/>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H8c-.55 0-1 .45-1 1v1h10v-1c0-.55-.45-1-1-1h-1c-.55 0-1-.45-1-1v-2.34"/>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Daily Challenges</h3>
+            <p class="feature-description">
+              Fun daily exercises and games to improve obedience and focus. Transform boring repetitions into engaging mental enrichment workouts that tire out energetic pups and sharpen their attention in high-distraction environments.
+            </p>
+            <div class="feature-tag-list">
+              <span class="feature-pill">⏱️ 5-Minute Games</span>
+              <span class="feature-pill">🧠 Mental Enrichment</span>
+              <span class="feature-pill">⚡ Impulse Control</span>
+            </div>
+          </article>
+
+          <!-- Feature Card 3: Progress Tracking -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"/>
+                <line x1="12" y1="20" x2="12" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="14"/>
+                <path d="M4 20h16"/>
+              </svg>
+            </div>
+            <h3 class="feature-title">Progress Tracking</h3>
+            <p class="feature-description">
+              Monitor achievements, milestones, and your dog's learning curve. Celebrate every breakthrough with digital badges, custom training logs, behavioral streak counters, and personalized milestone celebration certificates.
+            </p>
+            <div class="feature-tag-list">
+              <span class="feature-pill">📈 Visual Milestones</span>
+              <span class="feature-pill">🎖️ Digital Badges</span>
+              <span class="feature-pill">🗓️ Streak Tracker</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Academy Callout Banner -->
+        <div class="features-callout-banner">
+          <div class="callout-content">
+            <h4>Ready to experience calm, joyful walks?</h4>
+            <p>Join our 7-day risk-free introductory challenge and see the positive difference in your dog's focus today.</p>
+          </div>
+          <a href="#contact" class="btn btn-primary btn-white">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CONTACT SECTION (<section id="contact">)
+         User-friendly form (Name, Email, Message, Submit) with JS Validation,
+         Accessible Feedback, and Support Details
+         ====================================================================== -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-badge">Get In Touch</span>
+          <h2 id="contact-heading" class="section-title">Start Your Journey Today</h2>
+          <p class="section-subtitle">
+            Have questions about your dog's specific behavioral needs? Our certified positive behavior team is here to guide you every step of the way.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact & Support Info -->
+          <div class="contact-info-panel">
+            <h3>We'd Love to Hear From You</h3>
+            <p>
+              Whether you need curriculum guidance, behavioral advice, or assistance selecting the right course package, our friendly team is ready to help.
+            </p>
+
+            <div class="info-item-list">
+              <div class="info-item">
+                <div class="info-icon-box" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <strong>Direct Email Support</strong>
+                  <a href="mailto:hello@looseleashesacademy.com">hello@looseleashesacademy.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon-box" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <strong>Live Trainer Hours</strong>
+                  <span>Mon – Fri: 8:00 AM – 6:00 PM EST</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon-box" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                  </svg>
+                </div>
+                <div class="info-details">
+                  <strong>Our Pledge</strong>
+                  <span>Always positive, humane, and force-free guidance.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Guarantee Box -->
+            <div class="trainer-promise-card">
+              <strong>🐾 The BarkAcademy Promise</strong>
+              <p>Every inquiry is personally reviewed by a Certified Professional Dog Trainer (CPDT). We reply within 24 hours.</p>
+            </div>
+          </div>
+
+          <!-- Right Column: Accessible Contact Form -->
+          <div class="contact-form-card">
+            <!-- Dynamic Status Banner for Screen Readers & Visual Feedback -->
+            <div id="form-status" class="form-status-alert" role="alert" aria-live="polite">
+              <svg class="status-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+              <div id="form-status-message"></div>
+            </div>
+
+            <form id="contact-form" action="#" method="POST" novalidate>
+              <div class="form-row">
+                <!-- Name Input Field -->
+                <div class="form-group" id="group-name">
+                  <label for="contact-name">Your Full Name <span class="required-mark" aria-hidden="true">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="text" 
+                      id="contact-name" 
+                      name="name" 
+                      placeholder="e.g. Jessica Miller" 
+                      required 
+                      aria-required="true"
+                      aria-describedby="error-name"
+                      autocomplete="name">
+                  </div>
+                  <span class="error-message" id="error-name">Please provide your name so we know how to address you.</span>
+                </div>
+
+                <!-- Email Input Field -->
+                <div class="form-group" id="group-email">
+                  <label for="contact-email">Email Address <span class="required-mark" aria-hidden="true">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="email" 
+                      id="contact-email" 
+                      name="email" 
+                      placeholder="e.g. jessica@example.com" 
+                      required 
+                      aria-required="true"
+                      aria-describedby="error-email"
+                      autocomplete="email">
+                  </div>
+                  <span class="error-message" id="error-email">Please enter a valid email address (e.g. name@domain.com).</span>
+                </div>
+              </div>
+
+              <!-- Dog's Name & Focus Topic (Optional Field for Pet Relevance) -->
+              <div class="form-group" id="group-topic">
+                <label for="contact-topic">Primary Focus / Dog's Name</label>
+                <div class="input-wrapper">
+                  <input 
+                    type="text" 
+                    id="contact-topic" 
+                    name="topic" 
+                    placeholder="e.g. Luna (Golden Retriever) - Leash Pulling & Barking"
+                    autocomplete="off">
+                </div>
+              </div>
+
+              <!-- Message Input Field -->
+              <div class="form-group" id="group-message">
+                <label for="contact-message">How Can We Help You & Your Pup? <span class="required-mark" aria-hidden="true">*</span></label>
+                <div class="input-wrapper">
+                  <textarea 
+                    id="contact-message" 
+                    name="message" 
+                    rows="5" 
+                    placeholder="Tell us a little bit about your dog's age, breed, and current challenges..." 
+                    required 
+                    aria-required="true"
+                    aria-describedby="error-message"></textarea>
+                </div>
+                <span class="error-message" id="error-message">Please provide a message with at least 10 characters so we can help.</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-full-width">
+                <span id="btn-text">Send Message & Get Advice</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <p class="form-footer-note">
+                🔒 We respect your privacy. No spam ever. Your information is strictly used to answer your canine training questions.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       FOOTER SECTION (<footer>)
+       Contains Brand Overview, Navigation Links, Social Icons & Copyright
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info Column -->
+        <div class="footer-brand">
+          <a href="#" class="brand-logo" aria-label="Loose Leashes BarkAcademy Home">
+            <div class="logo-icon-wrapper" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 10.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm5.5 3c1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5-2.5 1.12-2.5 2.5 1.12 2.5 2.5 2.5zM6.5 13.5c1.38 0 2.5-1.12 2.5-2.5S7.88 8.5 6.5 8.5 4 9.62 4 11s1.12 2.5 2.5 2.5zm5.5 1.5c-2.4 0-4.5 1.4-5.4 3.4-.4.9.1 1.9 1 2.2.3.1.6.1.9.1 1.1 0 2.3-.6 3.5-.6s2.4.6 3.5.6c.3 0 .6 0 .9-.1.9-.3 1.4-1.3 1-2.2-.9-2-3-3.4-5.4-3.4z"/>
+              </svg>
+            </div>
+            <span>Loose Leashes <span class="logo-text-accent">BarkAcademy</span></span>
+          </a>
+          <p>
+            The premier digital positive reinforcement dog training platform. Helping pet parents turn difficult walks into joyful adventures through compassionate, science-backed behavioral guidance.
+          </p>
+          <div class="social-links" aria-label="Social media channels">
+            <a href="#about" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#about" class="social-btn" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+            <a href="#about" class="social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-link-list">
+            <li><a href="#navbar" class="footer-link">Home Top</a></li>
+            <li><a href="#about" class="footer-link">About Academy</a></li>
+            <li><a href="#features" class="footer-link">Features & Guides</a></li>
+            <li><a href="#contact" class="footer-link">Contact Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Training Programs Column -->
+        <div>
+          <h4 class="footer-heading">Programs</h4>
+          <ul class="footer-link-list">
+            <li><a href="#features" class="footer-link">Loose Leash Walking</a></li>
+            <li><a href="#features" class="footer-link">Puppy Foundations</a></li>
+            <li><a href="#features" class="footer-link">Reactivity Reset</a></li>
+            <li><a href="#features" class="footer-link">Reliable Recall Drills</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Support Column -->
+        <div>
+          <h4 class="footer-heading">Academy Support</h4>
+          <ul class="footer-link-list">
+            <li><a href="#contact" class="footer-link">Trainer Helpdesk</a></li>
+            <li><a href="#contact" class="footer-link">Frequently Asked Questions</a></li>
+            <li><a href="#contact" class="footer-link">hello@looseleashesacademy.com</a></li>
+            <li><a href="#contact" class="footer-link">Mon–Fri: 8AM–6PM EST</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Copyright & Legal Links -->
+      <div class="footer-bottom-bar">
+        <p>&copy; 2026 Loose Leashes BarkAcademy. All rights reserved. Built with love for dogs and their people.</p>
+        <div class="footer-legal-links">
+          <a href="#about">Privacy Policy</a>
+          <a href="#about">Terms of Service</a>
+          <a href="#about">Cookie Preferences</a>
+          <a href="#about">Accessibility Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
